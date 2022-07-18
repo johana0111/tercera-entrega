@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Source+Sans+Pro:wght@600&display=swap");
+.textoDestacado {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #0f0f0e;
+  text-align: center; }
+
+.textoComun {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #352728; }
+
+.titulos {
+  font-family: "Arima", cursive;
+  color: #4d7a81;
+  font-weight: bold; }
+
+.titulos2 {
+  font-family: "Arima", cursive;
+  font-weight: bold;
+  color: #352728; }
+
+.textoAzul {
+  color: #4d7a81;
+  font-family: "Source Sans Pro", sans-serif;
+  text-shadow: unset;
+  text-shadow: #CCC 1px 0 10px; }
+
+.textoBlanco {
+  color: #fffbf6;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.parrafos, .parrafoPrincipal {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.parrafoPrincipal {
+  color: #0f0f0e; }
+
+#botonera {
+  background-color: #352728; }
+  #botonera img {
+    width: 150px; }
+  #botonera ul li a {
+    color: #d3b895; }
+    #botonera ul li a:hover {
+      color: #d3b895;
+      background-color: #385258;
+      transition: background-color 1s; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.bg-brown {
+  background-color: #352728; }
+
+.bg-li-brown {
+  background-color: #d3b895; }
+
+.bg-trs {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.fondo {
+  background: url(../img/fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.fondo2 {
+  background: url(../img/fondo2.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.btnStyle:hover {
+  color: #fffbf6;
+  background-color: #385258;
+  transition: background-color 0,8s; }
+
+.efecto:hover {
+  transform: scale(1.1); }
+
+.chico {
+  width: 10%; }
+
+@media (max-width: 576px) {
+  .ali {
+    width: 95%; } }
+
+@media (min-width: 576px) {
+  .ancho {
+    width: 75%;
+    margin-right: 20px; }
+  .formulario {
+    width: 50%; }
+  .ali {
+    width: 18rem; } }

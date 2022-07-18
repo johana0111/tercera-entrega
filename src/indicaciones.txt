@@ -1,0 +1,9 @@
+
+
+  	-----indicaciones del entregable-----
+
+	* La declaracion del map esta en _vars.scss
+	* El get del mapa esta en _commons.scss
+	*la declaracion del mixin esta en _vars.scss
+	*la ejecucion del mixin esta en _fonts.scss
+	*la clase base y extends esta en _fonts.scss

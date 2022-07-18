@@ -1,0 +1,22 @@
+//nesting - anidación
+
+#botonera{
+	background-color: $mainColor;
+	img{
+		width: 150px;
+	}
+	ul{
+		li{
+			a{
+				color: $secondaryColor;
+				&:hover{
+					color:$secondaryColor;
+					background-color:$blueSecond;		
+					transition: background-color 1s;
+				}
+			}
+		}
+	}
+}
+
+

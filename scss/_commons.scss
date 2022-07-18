@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+// Fondos
+
+.bg-brown{
+	background-color: map-get($map:$paleta, $key: 'uno')
+}//utilizando map
+
+.bg-li-brown{
+	background-color: map-get($map:$paleta, $key: 'dos')
+}
+
+.bg-trs{
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+ 
+
+.fondo{
+  background: url(../img/fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.fondo2{
+  background: url(../img/fondo2.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;  
+}
+// botones
+
+
+.btnStyle{
+	&:hover{
+		color: $white;
+		background-color:$blueSecond;		
+		transition: background-color 0,8s;
+	}
+}
+.efecto{
+	&:hover{
+		transform: scale(1.1);
+		}
+}
+
+
+//imagenes
+
+.chico{
+	width: 10%;
+}
+
+//queries
+
+@media (max-width: 576px){
+	.ali{
+		width: 95%;
+	}
+}
+@media (min-width: 576px){
+	.ancho{
+		width: 75%;
+		margin-right: 20px;
+	}
+	.formulario{
+		width:50%;
+	}
+	.ali{
+		width: 18rem;
+	}
+}

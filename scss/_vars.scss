@@ -1,0 +1,27 @@
+// vars 
+$mainColor:#352728;
+$secondaryColor:#d3b895;
+$keyColor:#352728;
+$white:#fffbf6;
+$black:#0f0f0e;
+$blue:#4d7a81;
+$blueSecond:#385258;
+
+//agregando map
+$paleta:(
+	'uno': #352728,
+    'dos': #d3b895,
+    'tres':#4d7a81,
+    'cuatro':#385258,
+    'cinco':#fffbf6,
+    'seis':#0f0f0e,
+	);
+
+//agregando mixins
+
+@mixin texto($fuente,$color,$align){
+    font-family:$fuente;
+    color:$color;
+    text-align:$align;
+}
+

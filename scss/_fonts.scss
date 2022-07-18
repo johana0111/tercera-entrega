@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Source+Sans+Pro:wght@600&display=swap');
+
+
+//vars fonts
+$mainFont:'Source Sans Pro', sans-serif;
+$secondaryFont: 'Arima', cursive;
+
+//utilizando mixin
+.textoDestacado{
+	@include texto($mainFont,$black,center);
+}
+
+.textoComun{
+	font-family: $mainFont;
+	color:$mainColor;
+}
+
+.titulos{
+	font-family:$secondaryFont;
+	color:$blue;
+	font-weight: bold;
+}
+.titulos2{
+	font-family:$secondaryFont;
+	font-weight: bold;
+	color:$mainColor;
+}
+.textoAzul{
+color: $blue;
+font-family:$mainFont;
+text-shadow: unset;
+text-shadow: #CCC 1px 0 10px;
+}
+.textoBlanco{
+	color: $white;
+	font-family:$mainFont;
+
+}
+
+//extends
+
+.parrafos{
+    text-align: center;
+    font-size: 2em;
+    font-family: $mainFont;
+}
+
+.parrafoPrincipal{
+    @extend .parrafos;
+    color:$black;
+
+}
